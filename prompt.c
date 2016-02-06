@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 /* If we are compiling on Windows compile these functions */
@@ -27,22 +27,20 @@ void add_history(char* unused) {}
 #endif
 
 int main(int argc, char** argv) {
-               
-    puts("Lispy Version 0.0.0.0.1");
-    puts("Press Ctrl+c to Exit\n");
-                 
-    while (1) {
-                            
-         /* Now in either case readline will be
-         * correctly defined */
-         char* input = readline("lispy> ");
-         add_history(input);
+   
+  puts("Lispy Version 0.0.0.0.1");
+  puts("Press Ctrl+c to Exit\n");
+   
+  while (1) {
+    
+    /* Now in either case readline will be correctly defined */
+    char* input = readline("lispy> ");
+    add_history(input);
 
-         printf("No you're a %s\n", input);
-         free(input);                                                 
-    }
-                            
-    return 0;
+    printf("No you're a %s\n", input);
+    free(input);
+    
+  }
+  
+  return 0;
 }
-
-
