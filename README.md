@@ -1,4 +1,6 @@
-Chapter 8 - Error Handling
-This chapter focuses on handling errors such as 
-a division by zero error with the number evaluation.
+Chapter 9 - S Expressions 
+
+In this chapter, I refactor some code, and implement Symbolic Expressions
+from Lisp (commonly known as S-Expressions).
+
 
