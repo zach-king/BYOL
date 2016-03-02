@@ -1,5 +1,4 @@
-This is the working directory for my 
-following of "Build Your Own Lisp" 
-(BYOL) at http://www.buildyourownlisp.com.
+Chapter 8 - Error Handling
+This chapter focuses on handling errors such as 
+a division by zero error with the number evaluation.
 
--Zachary King
